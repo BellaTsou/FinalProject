@@ -5,10 +5,8 @@ app.get("/", (req, res) => { //當使用者連線到伺服器的根目錄(/)時�
     res.end("Hello Everyone:)This is main page.");
 });
 
-app.get("/test", (req, res) => {//當使用者連線到/test時，做出回應
-    res.end("You are in the /test");
-});
+app.use("/user", user_router)
 
 app.listen(port, () => {
-    console.log(`server listen on port =${port}`)
+    console.log(`server listen on port ${port}`)
 });
