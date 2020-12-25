@@ -1,0 +1,24 @@
+{
+  "name": "Bella_Final_Project-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BellaTsou/FinalProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BellaTsou/FinalProject/issues"
+  },
+  "homepage": "https://github.com/BellaTsou/FinalProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
